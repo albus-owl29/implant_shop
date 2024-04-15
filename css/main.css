@@ -26,9 +26,8 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-image: url("/img/back_header.png");
-    background-size: 100%;
-}
+    background-image: url("../img/back_header.png");
+    background-size: 100%;}
 
 .get-btn {
     min-width: 400px;
@@ -60,8 +59,7 @@ header {
     overflow-x: hidden;
     border-top: 0.1rem solid #fff;
     border-bottom: 0.1rem solid #fff;
-    background-color: #000;
-}
+    background-color: #000;}
 
 .line {
     display: inline-block;
@@ -73,8 +71,8 @@ header {
     animation: marquee 8s linear infinite;}
 
 @keyframes marquee {
-    from { transform: translateX(0);}
-    to { transform: translateX(-100%);}}
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}}
 
 
 /*** Main content ***/
