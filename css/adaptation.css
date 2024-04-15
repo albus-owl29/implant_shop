@@ -1,7 +1,12 @@
 @media (min-width: 280px) and (max-width: 1024px) {
 
+    /*** Header ***/
+
     header {background-size: cover; background-position: center; background-repeat: no-repeat;}
-    .start-btn {
+
+     /*** Get Implants ***/
+
+    .get-btn {
         min-width: 200px; 
         width: 90vmin;
         min-height: 130px;
