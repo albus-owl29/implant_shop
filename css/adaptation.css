@@ -8,7 +8,7 @@
         background-position: center; 
         background-repeat: no-repeat;}
 
-     /*** Get Implants ***/
+    /*** Get Implants ***/
 
     .get-btn {
         min-width: 200px; 
@@ -17,11 +17,35 @@
         height: 45vmin;
         font-size: 2.8rem;}
 
-     /*** Info ***/
+    /*** Content ***/
+
+    content {
+        width: 100%;
+        height: 610vh;}
+
+    /*** Info ***/
         
     .info {
-        height: 93vh;
+        height: 100vh;
         background-size: cover;
         background-position: center; 
         background-repeat: no-repeat;}
+
+    /*** Main ***/
+
+    .menu {
+        height: 520vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 4vmin;
+    }
+
+    .menu-items {
+        width: 96%;
+        height: 320px;
+        background-color: #fff;
+    } 
 }
