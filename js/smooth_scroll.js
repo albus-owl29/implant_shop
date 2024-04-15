@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('.start-btn a').click(function(){
+    $('.get-btn a').click(function(){
         
         let zero=0;
         $('body,html').animate({
